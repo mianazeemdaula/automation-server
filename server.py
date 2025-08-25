@@ -928,7 +928,7 @@ async def root():
     return {
         "message": "TTS Audio Generator API",
         "endpoints": {
-            "generate_audio": "POST /generate-audio",
+            "generate-audio": "POST /generate-audio",
             "task_status": "GET /task-status/{task_id}",
             "download": "GET /download/{filename}",
             "list_tasks": "GET /tasks",
